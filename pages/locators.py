@@ -21,3 +21,9 @@ class ProductPageLocators():
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    BASKET_BUTTON = (By.CSS_SELECTOR, "a[href=\"/en-gb/basket/\"]:nth-child(1)")
+
+
+class BasketLocators():
+    BASKET_EMPTY_LABEL = (By.CSS_SELECTOR, "#content_inner>p")
+    BASKET_SUMMARY = (By.CSS_SELECTOR, ".basket_summary")
